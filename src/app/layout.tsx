@@ -29,7 +29,7 @@ export default function RootLayout({
     <ConvexAuthNextjsServerProvider>
       <html lang="en">
         <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          className={`${geistSans.variable} ${geistMono.variable} antialiased  bg-zinc-800`}
         >
           <ConvexClientProvider>{children}</ConvexClientProvider>
         </body>
